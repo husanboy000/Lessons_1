@@ -1,0 +1,18 @@
+# davlatlar=["Ozbegiston", "Rassiya", "Shivitsarya", "ukraina", "malgonya"]
+# print(davlatlar)
+# print(lend(davlatlar))
+# print(sorted(davlatlar))
+# print(sorted(davlatlar, reverse=True))
+# davlatlar.sort()
+# print(davlatlar)
+# davlatlar.sort(reverse=True)
+# print(davlatlar)
+juvtsonlar=list(range(120,1201, 2))
+# print(juvtsonlar)
+# jami=sum(juvtsonlar)
+# print(jami)
+min_num=min(juvtsonlar)
+print(min)
+max_numm=max(juvtsonlar)
+yigindi = min_num + max_numm
+print(f"Eng katta {max_numm} va eng kichik {min_num} yig'indisi {yigindi}")
